@@ -1,0 +1,105 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.topdesign1{
+    display: inline;
+    width: 25%;
+
+}
+.topdesign2{
+    display: inline;
+    width: 20%;
+}
+
+.topdesign3{
+    display: inline;
+    width: 50%;
+    text-align: center;
+}
+
+#image01{
+    border: 10px solid #AED8CC;
+    border-radius: 50%;
+    width: 175px;
+}
+
+#engineer01{
+    color: #7A316F;
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+}
+
+#engineer02{
+    color: #CD6688;
+    margin-top: 0px;
+}
+
+.image02{
+    float: left;
+    width: 50%;
+    border-radius: 5%;
+    margin: 3%
+}
+
+.div01{
+    width: 40%;
+    margin: 3% 2%;
+    padding: 1%;
+}
+
+#div-01{
+    float: left;
+}
+
+#div-02{
+    float: right;
+}
+
+#div-03{
+    clear: both;
+    margin: 3% 30%;
+    
+}
+
+footer{
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+@media (min-width:1200px){
+    #image01{
+        width: 175px;
+    }
+}
+
+@media (max-width:480px){
+    .div01{
+        width: 90%;
+        margin: 3% 2%;
+        padding: 1%;
+    }
+    #div-03{
+        width: 90%;
+        margin: 3% 2%;
+        padding: 1%;
+        
+    }
+    .topdesign2{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #image01{
+        border: 10% solid #AED8CC;
+        border-radius: 50%;
+        width: 70%;
+        margin: 5%;
+    }
+    .topdesign1{
+        display: block;
+        width: 100%;
+        margin: 0px;
+    
+    }
+}
